@@ -1,0 +1,35 @@
+*{
+    font-size: 20px;
+}
+
+.padre{
+    background-color: #87A2FB;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    /*Indicar si los hijos se
+    comportan como columna o fila*/
+    justify-content: center; 
+    /*justify-content: start;
+    justify-content: end;
+    justify-content: space-between;*/
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    /*especifica si los elementos "hijos" son obligados a permanecer 
+    en una misma línea o pueden fluir en varias líneas.*/
+    padding: 10px 20px;
+}
+
+.hijos{
+    background-color: #F92F6F;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    
+}
+.elemento3{
+    align-self: center;
+    background-color: aqua;
+}
